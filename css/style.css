@@ -1122,7 +1122,7 @@ h3 {
   }
 
   header .navigation nav.move {
-    height: 38%;
+    height: 40vh;
     left: 50%;
     top: 35%;
     transform: translate(-50%, -50%);
