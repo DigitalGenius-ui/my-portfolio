@@ -40,6 +40,7 @@ let projects = [
         text: "Health Landing Page",
         tag: "UX/UI Converted",
         category:"landing",
+        html_link:'https://digitalgenius-ui.github.io/health-responsive/'
     },
 
     {
@@ -47,6 +48,7 @@ let projects = [
         text: "Blogr Landing Page",
         tag: "UX/UI Converted",
         category:"landing",
+        html_link:'https://digitalgenius-ui.github.io/bloger/'
     },
 
     {
@@ -54,6 +56,7 @@ let projects = [
         text: "Manage Landing Page",
         tag: "UX/UI Converted",
         category:"landing",
+        html_link :'https://digitalgenius-ui.github.io/manage-landing-page/'
     },
     // {
     //     img:"./image/landing1.jpg",
@@ -102,7 +105,7 @@ options.forEach(function(option){
 function showProjects(website){
     let items = website.map(function(item){
         return `<div class="projects">
-            <a href="https://digitalgenius-ui.github.io/Hire-me/"><img src="${item.img}" alt="landing page smaple"></a>
+            <a href="${item.html_link}"><img src="${item.img}" alt="landing page smaple"></a>
             <div class="health">${item.text}</div>
             <div class="pharagraph">${item.tag}</div>
             </div>`;
